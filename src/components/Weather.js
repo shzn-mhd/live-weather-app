@@ -9,7 +9,7 @@ const Weather = () => {
     const fetchWeather = async () => {
       try {
         const response = await axios.get(
-          `https://api.openweathermap.org/data/2.5/forecast?q=Badulla,lk&units=metric&appid=d668ea70722cdd25935d036d00aa597f`
+          `https://api.openweathermap.org/data/2.5/forecast?q=Badulla,lk&units=metric&appid=2e6d2bd8058929cb884faf44725c47e2`
         );
         setWeatherData(response.data.list.slice(0, 5)); // Get the first 5 forecasts
         setLoading(false);
