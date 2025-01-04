@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Weather from "./components/Weather";
+import AboutUs from "./components/AboutUs";
+import FAQ from "./components/FAQ";
+import Home from "./components/Home";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <header className="header">
+          <h1>Farmer's Weather Companion</h1>
+          <nav>
+            <ul className="nav-links">
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/weather">Weather</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/faq">FAQ</Link></li>
+            </ul>
+          </nav>
+        </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/weather" element={<Weather />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/faq" element={<FAQ />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
