@@ -8,13 +8,13 @@ import c5 from './assets/c5.jpg';
 const Home = () => {
   return (
     <div className="home">
-      <section className="hero">
+      {/* <section className="hero">
         <h1>Welcome to Farmer's Weather Companion</h1>
         <p><h2>Your trusted partner in farming success. Plan your activities with accurate weather forecasts and agricultural insights.</h2></p>
       </section>
-      <br></br>
+      <br></br> */}
       
-      <section className="farmers-section">
+      <section className="hero">
         <h2>Introduction</h2>
         <p>
         <p>Cabbage (Brassica oleracea) is a widely cultivated leafy vegetable belonging to the Brassicaceae family, known for its versatility and nutritional benefits. It is a cool-season crop that can be grown in various climates, making it a staple in many agricultural regions around the world. Cabbage is rich in essential vitamins like Vitamin C, K, and folate, along with dietary fiber and antioxidants, making it an important vegetable for maintaining a healthy diet. </p>
