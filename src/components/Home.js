@@ -9,6 +9,24 @@ const Home = () => {
         <p>Your trusted partner in farming success. Plan your activities with accurate weather forecasts and agricultural insights.</p>
       </section>
 
+      <div className="weather-det">
+          <p> <h2>Environmental Conditions </h2></p>
+          <p> <strong> Temperature Range:</strong> Cabbage prefers temperatures between *15°C and 20°C (59°F to 68°F) </p>
+          <p> <h3> Soil</h3></p>
+          <p> <strong>Soil Type:</strong> Loamy soils are preferred </p>
+          <p> <strong>Soil pH: </strong>Cabbage thrives in slightly acidic to neutral soils with a pH range of 6.0 to 6.8.</p>
+          <p><strong>Water Requirements:</strong>Cabbage needs about<strong> 1-1.5 inches of water per week</strong>depending on the weather conditions.</p>
+      </div>
+      <br></br>
+      <div className="weather-det">
+      <h2>Objectives</h2>
+      <ul>
+        <li><strong>To analyze the impact of erratic rainfall on cabbage production in the Badulla district of Sri Lanka, identifying key challenges faced by farmers in terms of crop yield, quality, and profitability due to unpredictable weather patterns. To develop a web-based platform that provides real-time, accurate, and localized weather 
+          forecasts to cabbage farmers in Badulla district, enabling them to make informed decisions regarding sowing, irrigation, and harvesting.</strong></li>
+        
+      </ul>
+      </div>
+
       <section className="farmers-section">
         <h2>Problem Statement</h2>
         <p>
