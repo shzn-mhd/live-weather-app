@@ -16,8 +16,8 @@ const App = () => {
             <ul className="nav-links">
               <li><Link to="/">Home</Link></li>
               <li><Link to="/weather">Weather</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/faq">FAQ</Link></li>
+              <li><Link to="/faq">Objectives</Link></li>
+              <li><Link to="/about">Contact Us</Link></li>
             </ul>
           </nav>
         </header>

@@ -10,10 +10,12 @@ const Home = () => {
       </section>
 
       <section className="farmers-section">
-        <h2>About Farmers</h2>
+        <h2>Problem Statement</h2>
         <p>
-          Farmers are the backbone of our society, ensuring food security and sustainable living. This platform is dedicated to supporting their efforts by
-          providing tools and resources to enhance productivity and adapt to changing weather conditions.
+        Cabbage farmers in the Badulla district of Uva Province are facing significant challenges due to erratic rainfall. The unpredictable weather, including long dry periods followed by heavy
+        rainfall, is affecting crop yields and quality. Farmers struggle to plan their planting, irrigation, and harvesting schedules, leading to financial losses. The lack of reliable, real-time weather information makes it difficult for farmers to make informed decisions. There is a clear need for a 
+        web-based platform that provides accurate weather forecasts and practical advice to help farmers 
+        in Badulla manage their crops more effectively and improve productivity despite changing weather patterns
         </p>
         <img
           src="https://static.vecteezy.com/system/resources/previews/031/608/503/large_2x/farmer-working-on-a-vegetable-field-in-the-morning-concept-of-agriculture-ai-generated-photo.jpg" 
@@ -22,26 +24,24 @@ const Home = () => {
       </section>
 
       <section className="articles-section">
-        <h2>Agriculture Articles</h2>
+        <h2>Further details about this approach</h2>
         <div className="articles">
           <article>
-            <h3>Modern Farming Techniques</h3>
+            <h3>Cabbage: A Nutrient-Packed Leafy Vegetable for Global Cultivation</h3>
             <p>
-              Explore innovative methods like precision agriculture, drip irrigation, and crop rotation to maximize yield and minimize resource usage.
-            </p>
+            Cabbage (Brassica oleracea) is a widely cultivated leafy vegetable belonging to the Brassicaceae family, known for its versatility and nutritional benefits. It is a cool-season crop that can be grown in various climates, making it a staple in many agricultural regions around the world. Cabbage is rich in essential vitamins like Vitamin C, K, and folate, along with dietary fiber and antioxidants, making it an important vegetable for maintaining a healthy diet.</p>
             <a href="https://example.com/farming-techniques" target="_blank" rel="noopener noreferrer">Read More</a>
           </article>
           <article>
-            <h3>Weather-Resilient Crops</h3>
+            <h3>Cabbage Cultivation: Culinary Uses, Farming Importance, and Growth Challengess</h3>
             <p>
-              Learn about crops that can withstand extreme weather conditions and improve your farming outcomes despite climate change.
-            </p>
+            Cabbage is grown for its dense, leafy heads, which can vary in color from green to red to purple, and is used in various culinary dishes, from salads and soups to fermented products like sauerkraut. It is also an important crop for farmers due to its relatively easy cultivation and high yield potential. However, like many crops, cabbage is susceptible to pests, diseases, and environmental factors, which makes proper care and management essential for optimal growth and quality.            </p>
             <a href="https://example.com/weather-resilient-crops" target="_blank" rel="noopener noreferrer">Read More</a>
           </article>
           <article>
-            <h3>Soil Health and Fertility</h3>
+            <h3>Comprehensive Guide to Successful and Sustainable Cabbage Farming</h3>
             <p>
-              Understand the importance of maintaining soil health for long-term productivity. Tips on soil testing, organic farming, and fertilizers.
+            In this guide, we will explore the essential aspects of cabbage farming, including soil preparation, planting methods, irrigation techniques, pest control, and harvesting strategies, to ensure a successful and sustainable crop production.
             </p>
             <a href="https://example.com/soil-health" target="_blank" rel="noopener noreferrer">Read More</a>
           </article>

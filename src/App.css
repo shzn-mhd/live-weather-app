@@ -44,7 +44,20 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.weather-det {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
 .about, .faq {
   margin: 20px;
   padding: 20px;
 }
+ iframe {
+  width: 400px; 
+  height:300px; 
+  border-radius:2px;
+  border-color: black;
+ }
