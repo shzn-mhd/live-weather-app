@@ -1,14 +1,21 @@
 import React from "react";
-
+import tipss from './assets/tipss.jpg'
 const Tips = () => {
     return (
       <div className="weather-det">
+
+        <div className="gallery">
+            <img
+            src={tipss}
+            alt='tips'
+            />
+       </div>
         <h1>Cabbage Farming Tips for Different Rainfall Conditions in Badulla District </h1>
         <p>
-        <h3>Badulla District, located in the Uva Province of Sri Lanka, has a diverse climate, ranging from wet to moderately dry conditions, which can impact cabbage farming. Cabbage is a cool-season crop that requires careful management to ensure high-quality yields. Below are tips for cabbage farming in Badulla District, based on different rainfall conditions: </h3>
+        <h2>Badulla District, located in the Uva Province of Sri Lanka, has a diverse climate, ranging from wet to moderately dry conditions, which can impact cabbage farming. Cabbage is a cool-season crop that requires careful management to ensure high-quality yields. Below are tips for cabbage farming in Badulla District, based on different rainfall conditions: </h2>
         </p>
         <p>
-            <h3>1. In Heavy Rainfall </h3>
+            <h2>1. In Heavy Rainfall </h2>
         </p>
         <p>
         <strong>Tips for Heavy Rainfall: </strong> 
@@ -25,7 +32,7 @@ const Tips = () => {
             </p>
             <strong>Mulching: </strong>Use mulch to prevent soil erosion and to maintain consistent soil moisture levels. Organic mulches like straw or dried leaves work well in areas with heavy rainfall.
             </p>
-        <p> <h3>  2. In Moderate Rainfall</h3></p>
+        <p> <h2>  2. In Moderate Rainfall</h2></p>
 
         <p>
             <h3><strong>Tips for Moderate Rainfall:</strong></h3>
@@ -44,7 +51,7 @@ const Tips = () => {
         </p>
 
         <p>
-            <h3>3. In Low Rainfall  </h3>
+            <h2>3. In Low Rainfall  </h2>
         </p>
         <p>
             <h3>Tips for Low Rainfall Areas:</h3>
@@ -68,6 +75,7 @@ const Tips = () => {
             <strong>Monitor Soil Moisture:</strong> Use a soil moisture sensor or simple techniques like the “finger test” to assess when irrigation is necessary. Avoid over-irrigating, as this can lead to water wastage and root rot.
         </p>
       </div>
+      
     );
   };
   

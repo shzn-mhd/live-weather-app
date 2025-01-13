@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-
+import weather from './assets/weatherr.jpg';
 function Weather() {
   const [weatherData, setWeatherData] = useState([]);
   const [loading, setLoading] = useState(true);
-  const API_KEY = "2e6d2bd8058929cb884faf44725c47e2"; // Your API key
-  const CITY = "Badulla,lk"; // Your city
+  const API_KEY = "2e6d2bd8058929cb884faf44725c47e2"; 
+  const CITY = "Badulla,lk"; 
 
   // Function to fetch weather data
   const fetchWeatherData = async () => {
@@ -47,6 +47,12 @@ function Weather() {
         <p>Loading...</p>
       ) : (
         <div className="weather-grid">
+          <div className="gallery"> 
+            <img
+            src={weather}
+            alt="weather cover"
+            />
+          </div>
           {weatherData.map((day, index) => (
             <div key={index} className="weather-card">
               <p>{new Date(day.dt_txt).toLocaleDateString()}</p>
@@ -59,6 +65,8 @@ function Weather() {
         </div>
       )}
     </div>
+
+    
   );
 }
 
