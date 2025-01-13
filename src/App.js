@@ -12,7 +12,7 @@ const App = () => {
     <Router>
       <div className="app">
         <header className="header">
-          <h1>Farmer's Weather Companion</h1>
+          <h1>Improve Cabbage Production Through Effective Weather Forecasting and Management Practices</h1>
           <nav>
             <ul className="nav-links">
               <li><Link to="/">Home</Link></li>
